@@ -4,44 +4,42 @@
     float: none;
 	position: static;
 }
-.iphonever{
+
+.phone{
     display: none;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
 
-}
+
 header{
     background-color: black;
-    height: 70px;
-    
-}
-.container{
+    height: 80px;
     width: 1440px;
     
 }
 .header-left img{
-    width: 120px;
     float: left;
+    margin-top: 6px;
+    margin-left: 20px;
 }
 .header-left h3{
-    color: azure;
-    padding-top: 21px;
+    color: white;
     float: left;
+    padding-top: 28px;
+    padding-left: 20px;
 }
 
 
 .swich-wrapper{
     background-color: grey;
-    height: 70px;
     text-align: center;
+    width: 1440px;
+    border-bottom: 10px solid black;
+   
 }
 .swich-wrapper a{
-    padding: 0 75px;
+    padding: 20px 75px;
     background-color: white;
-    line-height: 70px;
     display: inline-block;
     color: black;
     opacity: 0.6;
@@ -53,11 +51,13 @@ header{
 .swich-wrapper a:hover{
     opacity: 1;
 }
+
+
 .news-wrapper{
-    background-image: url(https://github.com/yuuki106/20220927azuki_line-stamp/blob/main/back_ground.jpg?raw=true);
-    background-size: contain;
+    background-image: url(/img/back_ground.jpg);
+    background-size: cover;
     height: 100%;
-    border-top: 20px solid black;
+    width: 1440px;
 }
 
 .news-text{
@@ -66,6 +66,7 @@ header{
     margin: auto;
     height: 100%;
     text-align: center;
+    padding-bottom: 50px;
 }
 .news-text h1{
     color: azure;
@@ -80,42 +81,46 @@ header{
 .news-text p{
     color: white;
     font-size: 20px;
-    padding-top: 50px;
+    padding: 50px 30px 0 30px;
     line-height: 35px;
 }
-.news-text a{
-    display: inline-block;
+.news-text h2{
     color: white;
-    font-size: 20px;
-    background-color: rgba(44, 208, 22, 0.814);
-    background-size: cover;
-    padding: 10px 25px;
-    border-radius: 9px;
-    margin-top: 20px;
+    padding:50px 0;
+    font-size: 40px;
+    font-family: "azuki_font";
+}
+
+
+.news-text a{
+    padding:10px 30px;
+    background-color: rgba(0, 229, 0, 0.83);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
     opacity: 0.8;
-    box-shadow: 0 10px black;
+    font-size: 20px;
+    box-shadow: 0 6px black;
+}
+.news-text a:hover{
+    opacity: 1;
+    transition: 0.3s;
 }
 .news-text a:active{
     box-shadow: none;
     position: relative;
-    top: 10px;
-}
-.news-text a:hover{
-    opacity: 1;
+    top:6px;
 }
 
 .news-img{
-    height: 100%;
-    padding-top: 40px;
-    margin: auto;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.814);
-    width: 1200px;
-    padding-bottom: 50px;
+    padding-top:40px;
 }
 .news-img img{
-    margin-right: 10px;
+    margin: 0 5px;
 }
+
 
 footer{
     width: 1440px;
